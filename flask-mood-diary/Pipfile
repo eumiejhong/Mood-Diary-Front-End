@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+flask-debugtoolbar = "*"
+flask-migrate = "*"
+flask-bcrypt = "*"
+requests = "*"
+psycopg2-binary = "*"
+flair = "*"
+yake = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
